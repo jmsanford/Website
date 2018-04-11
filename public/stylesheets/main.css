@@ -14,16 +14,16 @@ body {
 
 .body {
   padding: 20px; 
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 }
 
 .body-box {
-  border: 5px solid #4a148c;
+/*  border: 5px solid #4a148c;*/
   padding: 2px;
 }
 
 /* Header */
-.navbar {
+.navbar-main {
   background-color: #004d40;
   border-top: 10px solid #00251a;
 }
@@ -33,13 +33,38 @@ body {
 }
 
 
+
+
+/* Home page */
+.fas {
+  height: 100px;
+}
+
+.interest-box{
+  height: 150px;
+  text-align: center;
+  padding: 20px;
+}
+.interest-box .icon{
+  float: none !important;
+}
+
+.cover-photo{
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  height: 400px;
+}
+
 /* Footer */
-.footer{
+#footer{
   background-color: #E1E2E1;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 70px;
+  border-bottom: 10px solid #004d40;
+  padding-bottom: 10px;
 }
 .footer-text{
   text-align: center;
@@ -51,4 +76,3 @@ body {
 .headline {
   text-decoration: underline;
 }
-
