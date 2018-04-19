@@ -137,30 +137,11 @@ body {
   animation-delay: 30s;
 }
 
-@keyframes imageAnimation { 
-  0% { 
-    opacity: 0; 
-    animation-timing-function: ease-in;
-  }
-  10% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  20% {
-    opacity: 1
-  }
-  30% {
-    opacity: 0
-  }
-}
 
 /* Older browser support - .no-cssanimations class added by modernizr */
 .no-cssanimations .homepage-slideshow li {
   opacity: 1;
 }
-
-
-
 
 /* About page */
 .rate-thumbnail{
@@ -168,6 +149,7 @@ body {
   border-radius: 10px;
   transition: all .2s ease-in-out;
   margin-bottom: 20px;
+  opacity: .8;
 }
 .rate-thumbnail:hover{
   transform: scale(1.05);
@@ -187,6 +169,8 @@ body {
   border-radius: 10px;
   width: 330px;
   margin: auto;
+  opacity: .9;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.5);
 }
 .hours-list{
   color: white;
@@ -247,24 +231,6 @@ body {
   animation-delay: 30s;
 }
 
- 
-
-@keyframes imageAnimation { 
-  0% { 
-    opacity: 0; 
-    animation-timing-function: ease-in;
-  }
-  10% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  20% {
-    opacity: 1
-  }
-  30% {
-    opacity: 0
-  }
-}
 
 /* Older browser support - .no-cssanimations class added by modernizr */
 .no-cssanimations .studio-slideshow li {
@@ -364,7 +330,7 @@ body {
 }
 
 .link-text{
-  color: white;
+  color: rgba(165, 93, 53, .9);
 }
 .link-text:hover{
   color: rgba(255,255,255,.5);
